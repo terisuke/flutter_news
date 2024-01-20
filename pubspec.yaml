@@ -1,0 +1,64 @@
+name: flutter_news
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: '1.0.0'
+
+environment:
+  sdk: '>=2.17.0 <3.0.0'
+
+dependencies:
+  auto_route: ^7.8.4
+  breakpoint:
+  cupertino_icons:
+  dio:
+  flutter:
+    sdk: flutter
+  flutter_hooks: ^0.20.4
+  flutter_inappwebview:
+  flutter_localizations:
+    sdk: flutter
+  font_awesome_flutter:
+  freezed_annotation:
+  hooks_riverpod:
+  http:
+  intl: ^0.18.1
+  json_annotation: ^4.8.1
+  shared_preferences:
+  state_notifier:
+  universal_platform:
+  uri:
+  url_launcher:
+
+dev_dependencies:
+  analyzer: ^6.2.0
+  auto_route_generator: ^7.3.2
+  build_runner: ^2.4.8
+  flutter_gen_runner:
+  flutter_lints:
+  flutter_test:
+    sdk: flutter
+  freezed:
+  import_sorter:
+  json_serializable:
+  source_gen: ^1.5.0
+
+flutter:
+  
+  generate: true
+
+  uses-material-design: true
+
+
+import_sorter:
+  ignored_files:
+    - \/lib\/generated_plugin_registrant\.dart
+    - .*.freezed\.dart
+    - .*\.g\.dart
+    - .*\.gen\.dart
+    - .*\.gr\.dart
+    - .*\.mocks\.dart
+
+flutter_gen:
+  output: lib/config
